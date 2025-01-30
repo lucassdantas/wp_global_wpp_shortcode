@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Global Whatsapp shortcode
 * Plugin URI: https://github.com/lucassdantas/wp_global_wpp_shortcode.git
-* Update URI: https://github.com/lucassdantas/wp_global_wpp_shortcode.git
+* License: GPLv2
 * Description: Custom shortcode for show whatsapp
 * Version: 1.0.0
 * Author: Lucas Dantas
