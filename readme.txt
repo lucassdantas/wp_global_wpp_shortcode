@@ -7,6 +7,8 @@ Stable tag: 1.0.0
 License: GPL-2.0+
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
+Este plugin permite que você adicione um link direto para o WhatsApp em seu site WordPress usando shortcodes!
+
 == Description ==
 Este plugin permite que você adicione um link direto para o WhatsApp em seu site WordPress usando shortcodes, facilitando a comunicação com seus visitantes. 
 
