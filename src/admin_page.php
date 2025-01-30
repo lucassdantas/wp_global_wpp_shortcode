@@ -31,7 +31,13 @@ function custom_whatsapp_settings_page_html() {
       </form>
       
       <hr>
-
+      <h2>Como utilizar esse plugin?</h2>
+      <p>Nas Urls, utilize o shortcode [ld_whatsapp_link] para exibir apenas o número do whatsapp, sem espaço e outros caractéres. <br>
+          Esse shortcode possui o parâmetro 'text' para inserir uma mensagem diferente da padrão, que é 'Olá, estive em seu site e gostaria de ajuda.'
+          Para modificar o texto, utilize [ld_whatsapp_link text='seu texto aqui'].
+      </p>
+      <p>Nos textos, utilize o shortcode [ld_show_whatsapp_number] para exibir o número da forma como você escreveu no input acima.</p>
+      <hr> 
       <h2>💙 Apoie este projeto!</h2>
       <p>Se você gosta deste plugin e quer ajudar no seu desenvolvimento, considere apoiar com qualquer valor:</p>
       <p><a href="https://apoia.se/dev_dantas" target="_blank" class="button button-secondary">Apoiar no Apoia.se</a></p>
