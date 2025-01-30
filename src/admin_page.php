@@ -2,7 +2,7 @@
 function custom_whatsapp_settings_page() {
   add_menu_page(
       'Configuração do WhatsApp',
-      'WhatsApp Config',
+      'WhatsApp Shortcode',
       'manage_options',
       'custom-whatsapp-settings',
       'custom_whatsapp_settings_page_html',
