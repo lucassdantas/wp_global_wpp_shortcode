@@ -13,9 +13,7 @@ function custom_whatsapp_settings_page() {
 add_action('admin_menu', 'custom_whatsapp_settings_page');
 
 function custom_whatsapp_settings_page_html() {
-  if (!current_user_can('manage_options')) {
-      return;
-  }
+  if (!current_user_can('manage_options')) return;
   
   if (isset($_POST['custom_whatsapp_phone'])) {
       update_option('custom_whatsapp_phone', sanitize_text_field($_POST['custom_whatsapp_phone']));
@@ -31,6 +29,14 @@ function custom_whatsapp_settings_page_html() {
           <input type="text" id="custom_whatsapp_phone" name="custom_whatsapp_phone" value="<?php echo esc_attr($phone_number); ?>" />
           <button type="submit" class="button button-primary">Salvar</button>
       </form>
+      
+      <hr>
+
+      <h2>💙 Apoie este projeto!</h2>
+      <p>Se você gosta deste plugin e quer ajudar no seu desenvolvimento, considere apoiar com qualquer valor:</p>
+      <p><a href="https://apoia.se/dev_dantas" target="_blank" class="button button-secondary">Apoiar no Apoia.se</a></p>
+
   </div>
   <?php
 }
+?>

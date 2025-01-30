@@ -13,4 +13,4 @@ defined('ABSPATH') or die();
 if(!function_exists('add_action'))die;
 
 require_once plugin_dir_path(__FILE__). 'src/admin_page.php';
-require_once plugin_dir_path(__FILE__). 'src/global_whatsapp.php';
+require_once plugin_dir_path(__FILE__). 'src/shortcodes.php';
