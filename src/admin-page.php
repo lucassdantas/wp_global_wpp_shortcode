@@ -49,4 +49,4 @@ function glphsh_settings_page_html() {
   </div>
   <?php
 }
-?>
+

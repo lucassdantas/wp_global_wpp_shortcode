@@ -22,4 +22,4 @@ function glphsh_phone_number(){
   return esc_html($wpp_number);
 }
 add_shortcode('glphsh_phone_number', 'glphsh_phone_number');
-?>
+
