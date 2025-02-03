@@ -30,6 +30,9 @@ Para utilizar o plugin, insira o seguinte shortcode em qualquer lugar do seu sit
 - Para exibir o número de WhatsApp configurado:
   [glphsh_phone_number]
 
+== Screenshots == 
+1. Tela de configuração do plugin 
+
 == Changelog ==
 
 = 1.0 =
